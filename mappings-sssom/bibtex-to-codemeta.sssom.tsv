@@ -1,0 +1,24 @@
+# SSSOM Metadata
+#license: https://creativecommons.org/publicdomain/zero/1.0/
+#mapping_date:  2023-12-04
+#mapping_provider: Software Heritage
+#creator_label: Helene Jonin
+#curie_map:
+#  schema: "http://schema.org/"
+#  codemeta: "https://codemeta.github.io/terms/"
+
+subject_id	subject_label	predicate_id	object_id	object_label	match_type	subject_source	object_source	confidence	comment
+schema:codeRepository	codeRepository	skos:exactMatch	bibtex:repository	repository	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:softwareVersion	softwareVersion	skos:closeMatch	bibtex:version	version	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:downloadUrl	downloadUrl	skos:exactMatch	bibtex:file	file	SSSOMC:HumanCurated	schema	bibtex	1
+schema:softwareVersion	softwareVersion	skos:exactMatch	bibtex:version	version	SSSOMC:HumanCurated	schema	bibtex	1	Exact match based on semantic equivalence
+schema:releaseNotes	releaseNotes	skos:exactMatch	bibtex:note	note	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:author	author	skos:exactMatch	bibtex:author	author	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:datePublished	datePublished	skos:closeMatch	bibtex:date	date / (year) / (month)	SSSOMC:HumanCurated	schema	bibtex	1	Mapping covers multiple BibTeX fields for complete date information
+schema:editor	editor	skos:exactMatch	bibtex:editor	editor	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:license	license	skos:exactMatch	bibtex:license	license	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:publisher	publisher	skos:exactMatch	bibtex:publisher	publisher	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:description	description	skos:exactMatch	bibtex:abstract	abstract	SSSOMC:HumanCurated	schema	bibtex	1
+schema:identifier	identifier	skos:closeMatch	bibtex:doi / hal_id	doi / hal_id	SSSOMC:HumanCurated	schema	bibtex	1	Mapping covers multiple BibTeX fields to represent all identifiers	
+schema:url	url	skos:exactMatch	bibtex:url	url	SSSOMC:HumanCurated	schema	bibtex	1	
+schema:affiliation	affiliation	skos:exactMatch	bibtex:organization	organization	SSSOMC:HumanCurated	schema	bibtex	1	
